@@ -3,7 +3,7 @@ require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 if ( empty( $_GET['set'] ) ) {
-    echo 'require set name '; die();
+    echo 'require set name ??'; die();
 }
 
 $dom = new Dom;
@@ -38,7 +38,6 @@ foreach ($domList->find('a') as $key => $value) {
         'img' => $img = ( ! empty( $image_url ) ) ? $image_url : 'https://placeholdit.imgix.net/~text?txtsize=130&txt=No-Image&w=1520&h=500' ,
         );
 }
-
 
 require 'rss.php';
 
