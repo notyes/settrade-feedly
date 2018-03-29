@@ -3,7 +3,7 @@ require "vendor/autoload.php";
 use PHPHtmlParser\Dom;
 
 if ( empty( $_GET['set'] ) ) {
-    echo 'require set name ??'; die();
+    echo 'require set name ??  '; die();
 }
 
 $dom = new Dom;
