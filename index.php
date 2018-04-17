@@ -47,4 +47,3 @@ $rss->description = 'Storylog - Storytelling Community';
 $rss->date = $items[0]['date'];
 $rss->items = $items;
 echo $rss->generate();
-
