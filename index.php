@@ -28,7 +28,6 @@ foreach ($domList->find('a') as $key => $value) {
     $timestamp = strtotime( $time[0].' '.$time[1].' '.date('Y').' '.$time[2] );
     $timeSet = date( 'D, d M Y H:i:s O', $timestamp );
 
-
     $items[] = array(
         'title' => $detail,
         'description' => $detail,
